@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "author": "Richard Girges <richardgirges@gmail.com>",
   "description": "Simple express file upload middleware that wraps around Busboy",
-  "main": "./lib/index",
+  "main": "./test/manual/manualtest",
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec",
     "lint": "eslint ./",
