@@ -8,7 +8,7 @@
     "test": "istanbul cover _mocha -- -R spec",
     "lint": "eslint ./",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "main" : "node ./test/manual/manualtest.js"
+    "start" : "node ./test/manual/manualtest.js"
   },
   "dependencies": {
     "busboy": "^0.2.14",
