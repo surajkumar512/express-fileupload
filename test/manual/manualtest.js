@@ -35,6 +35,13 @@ app.post('/upload', function(req, res) {
   });
 });
 
+app.get('/download/', function(req, res) {
+	var fileName = req.query.fname
+	var downloadPath = __dirname + '/uploads/' + fileName;
+    res.download(downloadPath);  
+});
+
+
 app.listen(8080, function() {
   console.log('Express server listening on port 8080 : 2');
 });
